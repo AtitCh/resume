@@ -11,11 +11,11 @@ import { toast } from 'react-hot-toast';
 const Home = () => {
   const copyEmail = (v: string) => {
     navigator.clipboard.writeText(v);
-    toast.success('Email copied to clipboard!');
+    toast.success('Email copied!');
   };
   const copyNumber = (v: string) => {
     navigator.clipboard.writeText(v);
-    toast.success('Telephone Number copied to clipboard!');
+    toast.success('Telephone Number copied!');
   };
 
   return (
