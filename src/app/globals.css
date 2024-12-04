@@ -1,0 +1,104 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+h1::before {
+  transform: scaleX(0);
+  transform-origin: bottom right;
+}
+
+h1:hover::before {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+h1::before {
+  content: ' ';
+  display: block;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  inset: 0 0 0 0;
+  /* background: hsl(200 100% 80%); */
+  background: black;
+  z-index: -1;
+  transition: transform 0.3s ease;
+}
+.custom-shadow-blue {
+  box-shadow:
+    rgba(92, 191, 248, 0.4) 0px 5px,
+    rgba(92, 191, 248, 0.3) 0px 10px,
+    rgba(92, 191, 248, 0.2) 0px 15px,
+    rgba(92, 191, 248, 0.1) 0px 20px,
+    rgba(92, 191, 248, 0.05) 0px 25px;
+}
+.custom-shadow-yellow {
+  box-shadow:
+    rgba(245, 193, 24, 0.4) 0px 5px,
+    rgba(245, 193, 24, 0.3) 0px 10px,
+    rgba(245, 193, 24, 0.2) 0px 15px,
+    rgba(245, 193, 24, 0.1) 0px 20px,
+    rgba(245, 193, 24, 0.05) 0px 25px;
+}
+.custom-shadow-murasaki {
+  box-shadow:
+    rgba(97, 56, 245, 0.4) 0px 5px,
+    rgba(97, 56, 245, 0.3) 0px 10px,
+    rgba(97, 56, 245, 0.2) 0px 15px,
+    rgba(97, 56, 245, 0.1) 0px 20px,
+    rgba(97, 56, 245, 0.05) 0px 25px;
+}
+.custom-shadow-midori {
+  box-shadow:
+    rgba(70, 230, 70, 0.4) 0px 5px,
+    rgba(70, 230, 70, 0.3) 0px 10px,
+    rgba(70, 230, 70, 0.2) 0px 15px,
+    rgba(70, 230, 70, 0.1) 0px 20px,
+    rgba(70, 230, 70, 0.05) 0px 25px;
+}
+.custom-shadow-kuro {
+  box-shadow:
+    rgba(15, 15, 15, 0.4) 0px 2px,
+    rgba(15, 15, 15, 0.3) 0px 4px,
+    rgba(15, 15, 15, 0.2) 0px 6px,
+    rgba(15, 15, 15, 0.1) 0px 8px,
+    rgba(15, 15, 15, 0.05) 0px 10px;
+}
+
+h1 {
+  position: relative;
+  font-size: 5rem;
+  color: black; /* Default text color */
+  transition: color 0.3s ease; /* Smooth text color transition */
+}
+h1:hover {
+  color: white; /* Changes text color to white on hover */
+}
+
+h3 {
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+html {
+  block-size: 100%;
+  inline-size: 100%;
+}
+
+body {
+  min-block-size: 100%;
+  min-inline-size: 100%;
+  margin: 0;
+  box-sizing: border-box;
+  display: grid;
+  place-content: center;
+  font-family: system-ui, sans-serif;
+}
+
+@media (orientation: landscape) {
+  body {
+    grid-auto-flow: column;
+  }
+}
