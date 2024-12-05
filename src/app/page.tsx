@@ -2,16 +2,15 @@
 
 import Home from './page/home';
 import 'font-awesome/css/font-awesome.min.css';
-import Sidenav from './component/Sidenav';
 import Header from './component/Header';
 import { useState } from 'react';
 import Experience from './page/experience';
 import Skill from './page/skill';
 import Project from './page/project';
 
-export default function page() {
+const Page = () => {
   const [tabs, setTabs] = useState<number>(0); // To track the active tab
-  console.log(tabs);
+
   // Function to change tabs
   const handleTabChange = (tabIndex: number) => {
     setTabs(tabIndex); // Update the active tab when clicked
@@ -31,4 +30,5 @@ export default function page() {
       </div>
     </div>
   );
-}
+};
+export default Page;

@@ -2,7 +2,7 @@
 import React from 'react';
 
 interface HeaderProps {
-  onTabClick: (tabIndex: number) => void; // Function to handle tab click
+  onTabClick: (selectedTab: number) => void; // Function to handle tab click
   selectedTab: number; // Current selected tab index
 }
 

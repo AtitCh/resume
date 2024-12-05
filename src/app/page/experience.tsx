@@ -1,13 +1,10 @@
-'use client';
-
 import Image from 'next/image';
 import jm from '../../../public/jm.jpg';
 import rx from '../../../public/rx.png';
 import btf from '../../../public/btf.jpg';
 import inno from '../../../public/inno.jpg';
-import { useState } from 'react';
+import React from 'react';
 const Experience = () => {
-  const [page, setPage] = useState(0);
   return (
     <div className="gap-1 h-full">
       {/* JM */}
