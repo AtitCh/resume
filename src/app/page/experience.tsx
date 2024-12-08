@@ -1,8 +1,4 @@
 import Image from 'next/image';
-import jm from '../../../public/jm.jpg';
-import rx from '../../../public/rx.png';
-import btf from '../../../public/btf.jpg';
-import inno from '../../../public/inno.jpg';
 import React from 'react';
 const Experience = () => {
   return (
@@ -12,7 +8,7 @@ const Experience = () => {
         <div className="h-1/2 flex justify-center items-center">
           <div className="relative">
             <Image
-              src={jm}
+              src={'/jm.jpg'}
               alt="Image"
               layout="intrinsic"
               width={256}
@@ -56,7 +52,7 @@ const Experience = () => {
         <div className="h-1/2 flex justify-center items-center ">
           <div className="relative">
             <Image
-              src={btf}
+              src={'/btf.jpg'}
               alt="Image"
               layout="intrinsic"
               width={256}
@@ -103,7 +99,7 @@ const Experience = () => {
         <div className="h-1/2 flex justify-center items-center ">
           <div className="relative ">
             <Image
-              src={rx}
+              src={'/rx.png'}
               alt="Image"
               layout="intrinsic"
               width={256}
@@ -134,7 +130,7 @@ const Experience = () => {
         <div className="h-1/2 flex justify-center items-center ">
           <div className="relative">
             <Image
-              src={inno}
+              src={'/inno.jpg'}
               alt="Image"
               layout="intrinsic"
               width={256}
@@ -178,23 +174,6 @@ const Experience = () => {
           </div>
         </div>
       </div>
-
-      {/* <div className="col-span-6 row-span-1 h-full flex justify-end items-center">
-        <button
-          onClick={() => setPage(0)}
-          className="relative border border-black group  py-1.5 px-2.5 text-black m-5 w-20"
-        >
-          <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-black group-hover:w-full group-hover:transition-all"></span>
-          <p>Previous</p>
-        </button>
-        <button
-          onClick={() => setPage(1)}
-          className="relative border border-black group  py-1.5 px-2.5 text-black m-5 w-20"
-        >
-          <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-black group-hover:w-full group-hover:transition-all"></span>
-          <p>Next</p>
-        </button>
-      </div> */}
     </div>
   );
 };

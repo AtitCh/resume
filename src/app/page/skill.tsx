@@ -1,18 +1,4 @@
 import Image from 'next/image';
-import tailwind from '../../../public/tailwind.png';
-import tsx from '../../../public/ts.png';
-import js from '../../../public/js.png';
-import kotlin from '../../../public/kotlin.png';
-import html5 from '../../../public/html5.png';
-import css3 from '../../../public/css3.png';
-import reactJS from '../../../public/react.png';
-import vueJS from '../../../public/vueJs.png';
-import nextJS from '../../../public/next.png';
-import mui from '../../../public/mui.png';
-import nodeJS from '../../../public/node.png';
-import puppy from '../../../public/puppeteer.png';
-import mongo from '../../../public/MongoDB-Logo.png';
-import graph from '../../../public/graph.png';
 
 const Skill = () => {
   return (
@@ -22,7 +8,7 @@ const Skill = () => {
           <div className="relative flex justify-center items-center border-black mx-auto w-full ">
             <div className=" overflow-hidden group">
               <Image
-                src={tsx}
+                src={'/ts.png'}
                 alt="Image"
                 layout="intrinsic"
                 width={128}
@@ -41,7 +27,7 @@ const Skill = () => {
           <div className="relative flex justify-center items-center border-black mx-auto w-full ">
             <div className=" overflow-hidden group rounded-xl">
               <Image
-                src={js}
+                src={'js.png'}
                 alt="Image"
                 layout="intrinsic"
                 width={128}
@@ -60,7 +46,7 @@ const Skill = () => {
           <div className="relative flex justify-center items-center border-black mx-auto w-full ">
             <div className=" overflow-hidden group">
               <Image
-                src={kotlin}
+                src={'/kotlin.png'}
                 alt="Image"
                 layout="intrinsic"
                 width={128}
@@ -79,7 +65,7 @@ const Skill = () => {
           <div className="relative flex justify-center items-center border-black mx-auto w-full ">
             <div className=" overflow-hidden group">
               <Image
-                src={vueJS}
+                src={'/vueJs.png'}
                 alt="Image"
                 layout="intrinsic"
                 width={128}
@@ -98,7 +84,7 @@ const Skill = () => {
           <div className="relative flex justify-center items-center border-black mx-auto w-full ">
             <div className=" overflow-hidden group">
               <Image
-                src={nodeJS}
+                src={'/node.png'}
                 alt="Image"
                 layout="intrinsic"
                 width={128}
@@ -117,7 +103,7 @@ const Skill = () => {
           <div className="relative flex justify-center items-center border-black mx-auto w-full ">
             <div className=" overflow-hidden group">
               <Image
-                src={reactJS}
+                src={'/react.png'}
                 alt="Image"
                 layout="intrinsic"
                 width={128}
@@ -140,7 +126,7 @@ const Skill = () => {
           <div className="relative flex justify-center items-center border-black mx-auto w-full ">
             <div className=" overflow-hidden group">
               <Image
-                src={html5}
+                src={'/html5.png'}
                 alt="Image"
                 layout="intrinsic"
                 width={128}
@@ -159,7 +145,7 @@ const Skill = () => {
           <div className="relative flex justify-center items-center border-black mx-auto w-full ">
             <div className=" overflow-hidden group">
               <Image
-                src={css3}
+                src={'css3.png'}
                 alt="Image"
                 layout="intrinsic"
                 width={128}
@@ -178,7 +164,7 @@ const Skill = () => {
           <div className="relative flex justify-center items-center border-black mx-auto w-full ">
             <div className=" overflow-hidden group">
               <Image
-                src={nextJS}
+                src={'/next.png'}
                 alt="Image"
                 layout="intrinsic"
                 width={128}
@@ -197,7 +183,7 @@ const Skill = () => {
           <div className="relative flex justify-center items-center border-black mx-auto w-full ">
             <div className=" overflow-hidden group">
               <Image
-                src={mui}
+                src={'/mui.png'}
                 alt="Image"
                 layout="intrinsic"
                 width={128}
@@ -216,7 +202,7 @@ const Skill = () => {
           <div className="relative flex justify-center items-center border-black mx-auto w-full ">
             <div className=" overflow-hidden group">
               <Image
-                src={tailwind}
+                src={'/tailwind.png'}
                 alt="Image"
                 layout="intrinsic"
                 width={128}
@@ -235,7 +221,7 @@ const Skill = () => {
           <div className="relative flex justify-center items-center border-black mx-auto w-full ">
             <div className=" overflow-hidden group">
               <Image
-                src={puppy}
+                src={'/puppeteer.png'}
                 alt="Image"
                 layout="intrinsic"
                 width={128}
@@ -258,7 +244,7 @@ const Skill = () => {
           <div className="relative flex justify-center items-center border-black mx-auto w-full ">
             <div className=" overflow-hidden group">
               <Image
-                src={graph}
+                src={'/graph.png'}
                 alt="Image"
                 layout="intrinsic"
                 width={128}
@@ -278,7 +264,7 @@ const Skill = () => {
           <div className="relative flex justify-center items-center border-black mx-auto w-full ">
             <div className=" overflow-hidden group">
               <Image
-                src={mongo}
+                src={'/mongoDB-Logo.png'}
                 alt="Image"
                 layout="intrinsic"
                 width={128}

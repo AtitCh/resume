@@ -1,13 +1,8 @@
-import Atit from '../../../public/Atit.jpg';
 import Image from 'next/image';
-import nest from '../../../public/nest.png';
-import flutter from '../../../public/flutter.png';
-import lk from '../../../public/lkdin.png';
-import gm from '../../../public/gmail.png';
-import cell from '../../../public/cell.png';
 import React from 'react';
 import { toast } from 'react-hot-toast';
-
+// resume/
+// ../../../public/
 const Home = () => {
   const copyEmail = (v: string) => {
     navigator.clipboard.writeText(v);
@@ -24,7 +19,7 @@ const Home = () => {
         <div className="h-1/2 flex justify-start items-center  border-black mx-auto">
           <div className="relative rounded-lg overflow-hidden ml-4 w-1/2">
             <Image
-              src={Atit}
+              src={'/Atit.jpg'}
               alt="Image"
               layout="intrinsic"
               width={400}
@@ -58,7 +53,7 @@ const Home = () => {
                 <div className="relative flex justify-center items-center border-black mx-auto w-full ">
                   <div className=" overflow-hidden group">
                     <Image
-                      src={flutter}
+                      src={'/flutter.png'}
                       alt="Image"
                       layout="intrinsic"
                       width={256}
@@ -81,7 +76,7 @@ const Home = () => {
                 <div className="relative flex justify-center items-center border-black mx-auto w-full ">
                   <div className=" overflow-hidden group">
                     <Image
-                      src={nest}
+                      src={'/nest.png'}
                       alt="Image"
                       layout="intrinsic"
                       width={256}
@@ -129,7 +124,7 @@ const Home = () => {
               <div className="border-b-0 border-black group relative p-1 font-light mb-3">
                 <div className=" overflow-hidden group flex item-center">
                   <Image
-                    src={lk}
+                    src={'/lkdin.png'}
                     alt="Image"
                     layout="intrinsic"
                     width={30}
@@ -150,7 +145,7 @@ const Home = () => {
                   onClick={() => copyEmail('atit8794@gmail.com')}
                 >
                   <Image
-                    src={gm}
+                    src={'/gmail.png'}
                     alt="Image"
                     layout="intrinsic"
                     width={30}
@@ -169,7 +164,7 @@ const Home = () => {
                   }}
                 >
                   <Image
-                    src={cell}
+                    src={'/cell.png'}
                     alt="Image"
                     layout="intrinsic"
                     width={30}

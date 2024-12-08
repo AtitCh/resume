@@ -6,6 +6,9 @@ const nextConfig: NextConfig = {
   assetPrefix: '/resume', // Same as basePath
   trailingSlash: true,
   // reactStrictMode: true,
+  images: {
+    unoptimized: true, // Disable the Image Optimization API
+  },
 };
 
 export default nextConfig;
