@@ -19,7 +19,11 @@ const Home = () => {
         <div className="h-1/2 flex justify-start items-center  border-black mx-auto">
           <div className="relative rounded-lg overflow-hidden ml-4 w-1/2">
             <Image
-              src={'/Atit.jpg'}
+              src={
+                process.env.NEXT_PUBLIC_APP_ENVIRONMENT
+                  ? '/Atit.jpg'
+                  : 'resume/Atit.jpg'
+              }
               alt="Image"
               layout="intrinsic"
               width={400}
