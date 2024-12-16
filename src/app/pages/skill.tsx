@@ -8,11 +8,7 @@ const Skill = () => {
           <div className="relative flex justify-center items-center border-black mx-auto w-full ">
             <div className=" overflow-hidden group">
               <Image
-                src={
-                  process.env.NEXT_PUBLIC_APP_ENVIRONMENT
-                    ? '/ts.png'
-                    : 'resume/ts.png'
-                }
+                src={'/ts.png'}
                 alt="Image"
                 layout="intrinsic"
                 width={128}
@@ -31,11 +27,7 @@ const Skill = () => {
           <div className="relative flex justify-center items-center border-black mx-auto w-full ">
             <div className=" overflow-hidden group rounded-xl">
               <Image
-                src={
-                  process.env.NEXT_PUBLIC_APP_ENVIRONMENT
-                    ? '/js.png'
-                    : 'resume/js.png'
-                }
+                src={'/js.png'}
                 alt="Image"
                 layout="intrinsic"
                 width={128}
@@ -54,11 +46,7 @@ const Skill = () => {
           <div className="relative flex justify-center items-center border-black mx-auto w-full ">
             <div className=" overflow-hidden group">
               <Image
-                src={
-                  process.env.NEXT_PUBLIC_APP_ENVIRONMENT
-                    ? '/kotlin.png'
-                    : 'resume/kotlin.png'
-                }
+                src={'/kotlin.png'}
                 alt="Image"
                 layout="intrinsic"
                 width={128}
