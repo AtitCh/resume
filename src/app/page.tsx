@@ -1,12 +1,12 @@
 'use client';
 
-import Home from './page/home';
+import Home from './pages/home';
 import 'font-awesome/css/font-awesome.min.css';
 import Header from './component/Header';
 import { useState } from 'react';
-import Experience from './page/experience';
-import Skill from './page/skill';
-import Project from './page/project';
+import Experience from './pages/experience';
+import Skill from './pages/skill';
+import Project from './pages/project';
 
 const Page = () => {
   const [tabs, setTabs] = useState<number>(0); // To track the active tab
