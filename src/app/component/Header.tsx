@@ -37,7 +37,10 @@ const Header: React.FC<HeaderProps> = ({ onTabClick, selectedTab }) => {
             ) : (
               <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-black group-hover:w-full group-hover:transition-all"></span>
             )}
-            Experience
+            <span className="sm:hidden">EXP</span>{' '}
+            {/* Display on small screens */}
+            <span className="hidden sm:inline">Experience</span>{' '}
+            {/* Display on larger screens */}
           </button>
           <button
             onClick={() => onTabClick(2)}
@@ -59,7 +62,10 @@ const Header: React.FC<HeaderProps> = ({ onTabClick, selectedTab }) => {
             ) : (
               <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-black group-hover:w-full group-hover:transition-all"></span>
             )}
-            Project
+            <span className="sm:hidden">PRJ</span>{' '}
+            {/* Display on small screens */}
+            <span className="hidden sm:inline">Project</span>{' '}
+            {/* Display on larger screens */}
           </button>
         </div>
       </div>

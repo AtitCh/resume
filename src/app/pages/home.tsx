@@ -16,7 +16,7 @@ const Home = () => {
   return (
     <div className="grid grid-cols-4 grid-rows-5 gap-1 h-full ">
       <div className="col-span-2 row-span-5 h-full ">
-        <div className="h-1/2 flex justify-start items-center  border-black mx-auto">
+        <div className="h-1/2 flex justify-start items-center border-black mx-auto">
           <div className="relative rounded-lg overflow-hidden ml-4 w-1/2">
             <Image
               src={
@@ -192,14 +192,14 @@ const Home = () => {
               </div>
             </div>
           </div>
-          <div className="relative  ml-2 w-1/2 h-full bg-gray-200">
+          {/* <div className="relative  ml-2 w-1/2 h-full bg-gray-200">
             <div className="p-4 overflow-y-auto max-h-[300px] w-full  break-words flex flex-col justify-start mt-5 ">
               <h3 className="font-bold mb-3">Advertising space</h3>
               <div className="border-b-0 border-black group relative p-1 font-light mb-3">
                 if not hire me atleast buy this space
               </div>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
     </div>
